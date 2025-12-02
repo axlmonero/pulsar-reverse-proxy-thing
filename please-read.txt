@@ -1,0 +1,5 @@
+You can't run two VPNs simultaneously on the same machine. If possible, set up a VPN on your router instead. Alternatively, you can use ChatGPT or similar tools for additional help.
+
+For privacy, I recommend using Mullvad.net. They don’t keep logs and the service costs just $5.
+
+Please note: if you don’t use a VPN to mask your real IP, you will be exposing your actual IP address to the VPS provider. Clients won’t see your IP, but the VPS host will. For privacy, consider using kyun.host, which accepts Monero (XMR) and card payments via Stripe.
