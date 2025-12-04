@@ -488,6 +488,8 @@ crl-verify crl.pem" >> /etc/openvpn/server/server.conf
 		# Enable without waiting for a reboot or service restart
 		echo 1 > /proc/sys/net/ipv6/conf/all/forwarding
 	fi
+	# Apply sysctl settings immediately and persist across reboots
+	sysctl -p /etc/sysctl.d/99-openvpn-forward.conf
 	if systemctl is-active --quiet firewalld.service; then
 		# Using both permanent and not permanent rules to avoid a firewalld
 		# reload.
