@@ -33,13 +33,13 @@ THIS README WAS GENERATED USING AI SO TAKE THIS WITH A GRAIN OF SALT!!!
 
 1. Download the script to your VPS:
 ```bash
-wget https://raw.githubusercontent.com/yourusername/pulsar-reverse-proxy-thing/main/openvpn-setup.sh
+wget https://raw.githubusercontent.com/axlmonero/pulsar-reverse-proxy-thing/refs/heads/main/pulsar-ovpn-setup.sh
 chmod +x openvpn-setup.sh
 ```
 
 2. Run the script as root:
 ```bash
-sudo bash openvpn-setup.sh
+sudo bash pulsar-ovpn-setup.sh
 ```
 
 3. Follow the prompts:
@@ -119,7 +119,7 @@ To completely remove everything this script installed:
 
 1. Run the script again:
 ```bash
-sudo bash openvpn-setup.sh
+sudo bash pulsar-ovpn-setup.sh
 ```
 
 2. Select option 7: "UNINSTALL ALL!"
